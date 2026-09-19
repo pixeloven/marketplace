@@ -1,0 +1,38 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pixeloven",
+  "description": "PixelOven's plugins for Claude Code and Codex \u2014 the agent foundation, the knowledge substrate, and the design system.",
+  "owner": {
+    "name": "PixelOven"
+  },
+  "plugins": [
+    {
+      "name": "crew",
+      "description": "Portable agent methodology: 7 crew roles, planning/review/orchestration disciplines, stack conventions, onboarding + doctor. Needs no platform.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/crew.git",
+        "sha": "44f09355bd7cd109e62795c19c11c51d6f52ba78"
+      },
+      "homepage": "https://github.com/pixeloven/crew"
+    },
+    {
+      "name": "design",
+      "description": "Brand assets and design-system usage: the tokens, typography and component conventions a consuming project applies.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/design.git",
+        "sha": "05ddae1091caf1208f8ae45e505364390aa9dd17"
+      },
+      "homepage": "https://github.com/pixeloven/design"
+    }
+  ]
+}
