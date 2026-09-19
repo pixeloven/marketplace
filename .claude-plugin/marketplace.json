@@ -16,7 +16,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/crew.git",
-        "sha": "44f09355bd7cd109e62795c19c11c51d6f52ba78"
+        "sha": "af99481ba1e6e39677b16851e3ba2206c62cc998"
       },
       "homepage": "https://github.com/pixeloven/crew"
     },
@@ -30,7 +30,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/design.git",
-        "sha": "05ddae1091caf1208f8ae45e505364390aa9dd17"
+        "sha": "9e856c9f9fd2c3e9954fb8b760af52f382e41ae1"
       },
       "homepage": "https://github.com/pixeloven/design"
     }
