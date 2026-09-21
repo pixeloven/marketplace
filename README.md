@@ -31,6 +31,7 @@ Or declare it in settings:
 | --- | --- | --- |
 | `crew@pixeloven` | [pixeloven/crew](https://github.com/pixeloven/crew) | Portable agent methodology — 7 roles, planning/review/orchestration disciplines, onboarding + doctor. |
 | `design@pixeloven` | [pixeloven/design](https://github.com/pixeloven/design) | The PixelOven design system — tokens, typography, brand assets. |
+| `comfyui-docker@pixeloven` | [pixeloven/ComfyUI-Docker](https://github.com/pixeloven/ComfyUI-Docker) | Authoring and operating a ComfyUI model store — manifests, locks, image channels. |
 
 Each plugin lives in its own repository. This repository holds only the
 catalogue that points at them.
