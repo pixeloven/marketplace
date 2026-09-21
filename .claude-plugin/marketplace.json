@@ -33,6 +33,20 @@
         "sha": "9e856c9f9fd2c3e9954fb8b760af52f382e41ae1"
       },
       "homepage": "https://github.com/pixeloven/design"
+    },
+    {
+      "name": "comfyui-docker",
+      "description": "Authoring and operating a ComfyUI model store: comfy.yaml manifests, resolved locks, and the image channels that serve them.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/ComfyUI-Docker.git",
+        "sha": "8940fdc2cf04e7ee5377e65ef922bf00b1ceee0f"
+      },
+      "homepage": "https://github.com/pixeloven/ComfyUI-Docker"
     }
   ]
 }
