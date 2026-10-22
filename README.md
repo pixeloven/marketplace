@@ -30,6 +30,7 @@ Or declare it in settings:
 | Plugin | Source | What it is |
 | --- | --- | --- |
 | `crew@pixeloven` | [pixeloven/crew](https://github.com/pixeloven/crew) | Portable agent methodology — 7 roles, planning/review/orchestration disciplines, onboarding + doctor. |
+| `infra-skills@pixeloven` | [pixeloven/infra-skills](https://github.com/pixeloven/infra-skills) | Crew skills pack — Terraform, Ansible, Kubernetes and GitHub Actions conventions. Install beside `crew@pixeloven`. |
 | `design@pixeloven` | [pixeloven/design](https://github.com/pixeloven/design) | The PixelOven design system — tokens, typography, brand assets. |
 | `comfyui-docker@pixeloven` | [pixeloven/ComfyUI-Docker](https://github.com/pixeloven/ComfyUI-Docker) | Authoring and operating a ComfyUI model store — manifests, locks, image channels. |
 
