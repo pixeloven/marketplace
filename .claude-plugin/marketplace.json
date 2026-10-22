@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "crew",
-      "description": "Portable agent methodology: 7 crew roles, planning/review/orchestration disciplines, stack conventions, onboarding + doctor. Needs no platform.",
+      "description": "Portable agent methodology: 7 crew roles, planning/review/orchestration disciplines, onboarding, doctor and learn. Needs no platform; stack conventions ship as packs (infra-skills).",
       "author": {
         "name": "PixelOven"
       },
@@ -16,7 +16,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/crew.git",
-        "sha": "af99481ba1e6e39677b16851e3ba2206c62cc998"
+        "sha": "7a7c2bc114a157584f2733be419c94093360c3b3"
       },
       "homepage": "https://github.com/pixeloven/crew"
     },
