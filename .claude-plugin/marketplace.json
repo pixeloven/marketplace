@@ -21,6 +21,20 @@
       "homepage": "https://github.com/pixeloven/crew"
     },
     {
+      "name": "infra-skills",
+      "description": "Crew skills pack: Terraform, Ansible, Kubernetes (Kustomize, workloads) and GitHub Actions conventions, with estate choices deferred to the project's local skills.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/infra-skills.git",
+        "sha": "958ecad0802b7017e40312848746ecb5ffe08d75"
+      },
+      "homepage": "https://github.com/pixeloven/infra-skills"
+    },
+    {
       "name": "design",
       "description": "Brand assets and design-system usage: the tokens, typography and component conventions a consuming project applies.",
       "author": {
