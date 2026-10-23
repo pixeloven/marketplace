@@ -61,3 +61,7 @@ source takes. So a plugin release is two steps:
 Until step 2 lands, consumers keep resolving the previously pinned commit. That
 is the intended behaviour: nothing ships to consumers until the catalogue says
 so.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
