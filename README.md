@@ -31,6 +31,8 @@ Or declare it in settings:
 | --- | --- | --- |
 | `crew@pixeloven` | [pixeloven/crew](https://github.com/pixeloven/crew) | Portable agent methodology — 7 roles, planning/review/orchestration disciplines, onboarding + doctor. |
 | `infra-skills@pixeloven` | [pixeloven/infra-skills](https://github.com/pixeloven/infra-skills) | Crew skills pack — Terraform, Ansible, Kubernetes and GitHub Actions conventions. Install beside `crew@pixeloven`. |
+| `planning-skills@pixeloven` | [pixeloven/planning-skills](https://github.com/pixeloven/planning-skills) | Crew skills pack: product planning — idea shaping, requirements review, readiness, themes, story breakdown, cross-functional review. Install beside `crew@pixeloven`. |
+| `identity-skills@pixeloven` | [pixeloven/identity-skills](https://github.com/pixeloven/identity-skills) | Crew skills pack: identity and auth engineering — seams, flow tracing, surface mapping, account investigation, vendor config review. Install beside `crew@pixeloven`. |
 | `design@pixeloven` | [pixeloven/design](https://github.com/pixeloven/design) | The PixelOven design system — tokens, typography, brand assets. |
 | `comfyui-docker@pixeloven` | [pixeloven/ComfyUI-Docker](https://github.com/pixeloven/ComfyUI-Docker) | Authoring and operating a ComfyUI model store — manifests, locks, image channels. |
 

@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "crew",
-      "description": "Portable agent methodology: 7 crew roles, planning/review/orchestration disciplines, onboarding, doctor and learn. Needs no platform; stack conventions ship as packs (infra-skills).",
+      "description": "Portable agent methodology: 7 crew roles, planning/review/orchestration disciplines, onboarding, doctor and learn. Needs no platform; domain and stack skills ship as packs.",
       "author": {
         "name": "PixelOven"
       },
@@ -16,7 +16,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/crew.git",
-        "sha": "7a7c2bc114a157584f2733be419c94093360c3b3"
+        "sha": "cf7472e6dcaeeba3bc25b1e5764f0dda1f7eaaaa"
       },
       "homepage": "https://github.com/pixeloven/crew"
     },
@@ -33,6 +33,34 @@
         "sha": "38651f0400ac8162f229456f4dd45f79ed736def"
       },
       "homepage": "https://github.com/pixeloven/infra-skills"
+    },
+    {
+      "name": "planning-skills",
+      "description": "Crew skills pack for product planning: idea shaping, requirements review, readiness, themes, story breakdown and cross-functional review. Drafts only; tracker sync optional.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/planning-skills.git",
+        "sha": "c4bae5932d040a8905cbe23513ee599edc593d98"
+      },
+      "homepage": "https://github.com/pixeloven/planning-skills"
+    },
+    {
+      "name": "identity-skills",
+      "description": "Crew skills pack for identity and auth engineering: auth seams, flow tracing, surface mapping, signal reliability, account investigation and vendor config review.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/identity-skills.git",
+        "sha": "0d13897766615b8b3771437a499b6493156e8075"
+      },
+      "homepage": "https://github.com/pixeloven/identity-skills"
     },
     {
       "name": "design",
