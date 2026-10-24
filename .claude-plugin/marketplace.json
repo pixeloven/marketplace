@@ -16,13 +16,13 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/crew.git",
-        "sha": "a89271e82ec338db93d6767577720c477058af33"
+        "sha": "35c3f4d9bd4401efc7265fe93db33c6ab0ee0ac9"
       },
       "homepage": "https://github.com/pixeloven/crew"
     },
     {
       "name": "infra-skills",
-      "description": "Crew skills pack: Terraform, Ansible, Kubernetes (Kustomize, workloads) and GitHub Actions conventions, with estate choices deferred to the project's local skills.",
+      "description": "Crew skills pack: Terraform, Ansible, Kubernetes (Kustomize, workloads, health sweeps) and GitHub Actions conventions, plus infrastructure seam detection, with estate choices deferred to the project's local skills.",
       "author": {
         "name": "PixelOven"
       },
@@ -30,9 +30,23 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/infra-skills.git",
-        "sha": "38651f0400ac8162f229456f4dd45f79ed736def"
+        "sha": "d430ed63329d6bf7c4de602274227401373b34da"
       },
       "homepage": "https://github.com/pixeloven/infra-skills"
+    },
+    {
+      "name": "language-skills",
+      "description": "Crew skills pack: language and toolchain conventions for coding agents, one skill per language, Python first.",
+      "author": {
+        "name": "PixelOven"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeloven/language-skills.git",
+        "sha": "12700b6263b8a23f5c3d1a5eb97dc092e86dad65"
+      },
+      "homepage": "https://github.com/pixeloven/language-skills"
     },
     {
       "name": "planning-skills",
