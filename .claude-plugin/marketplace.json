@@ -16,13 +16,13 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/crew.git",
-        "sha": "e16391da924b220bb7cfe193fd6ad4da6a7959cb"
+        "sha": "bfb434712cbef617a2e064b260fa971752682f8d"
       },
       "homepage": "https://github.com/pixeloven/crew"
     },
     {
       "name": "infra-skills",
-      "description": "Crew skills pack: Terraform, Ansible, Kubernetes (Kustomize, workloads, health sweeps) and GitHub Actions conventions, plus infrastructure seam detection, with estate choices deferred to the project's local skills.",
+      "description": "Crew skills pack: Terraform, Ansible, Kubernetes (Kustomize, workloads, health sweeps) and GitHub Actions conventions, plus infrastructure seam detection and go-public review, with estate choices deferred to the project's local skills.",
       "author": {
         "name": "PixelOven"
       },
@@ -30,7 +30,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pixeloven/infra-skills.git",
-        "sha": "d430ed63329d6bf7c4de602274227401373b34da"
+        "sha": "c84a575df6c537ca60b6180366858996fb1b8e3c"
       },
       "homepage": "https://github.com/pixeloven/infra-skills"
     },

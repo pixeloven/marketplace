@@ -30,7 +30,7 @@ Or declare it in settings:
 | Plugin | Source | What it is |
 | --- | --- | --- |
 | `crew@pixeloven` | [pixeloven/crew](https://github.com/pixeloven/crew) | Portable agent methodology — 7 roles, planning/review/orchestration disciplines, onboarding + doctor. |
-| `infra-skills@pixeloven` | [pixeloven/infra-skills](https://github.com/pixeloven/infra-skills) | Crew skills pack — Terraform, Ansible, Kubernetes and GitHub Actions conventions, plus infrastructure seams and Kubernetes diagnostics. Install beside `crew@pixeloven`. |
+| `infra-skills@pixeloven` | [pixeloven/infra-skills](https://github.com/pixeloven/infra-skills) | Crew skills pack — Terraform, Ansible, Kubernetes and GitHub Actions conventions, plus infrastructure seams, Kubernetes diagnostics and go-public review. Install beside `crew@pixeloven`. |
 | `language-skills@pixeloven` | [pixeloven/language-skills](https://github.com/pixeloven/language-skills) | Crew skills pack: language and toolchain conventions — one skill per language, Python first. Install beside `crew@pixeloven`. |
 | `planning-skills@pixeloven` | [pixeloven/planning-skills](https://github.com/pixeloven/planning-skills) | Crew skills pack: product planning — idea shaping, requirements review, readiness, themes, story breakdown, cross-functional review. Install beside `crew@pixeloven`. |
 | `identity-skills@pixeloven` | [pixeloven/identity-skills](https://github.com/pixeloven/identity-skills) | Crew skills pack: identity and auth engineering — seams, flow tracing, surface mapping, account investigation, vendor config review. Install beside `crew@pixeloven`. |
