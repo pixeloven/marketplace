@@ -1,5 +1,16 @@
 # PixelOven marketplace
 
+> [!IMPORTANT]
+> **The catalogue has moved to [pixeloven/crew](https://github.com/pixeloven/crew).**
+> From crew v0.67.0, crew's repository serves the `pixeloven` marketplace for
+> crew and every skills pack, and one release tag pins them all. Plugin IDs
+> (`crew@pixeloven`, `<pack>@pixeloven`) are unchanged.
+>
+> To switch each tool (Claude Code, Codex, pi), follow the
+> [Consumer impact steps in crew's 0.67.0 changelog](https://github.com/pixeloven/crew/blob/v0.67.0/CHANGELOG.md#consumer-impact).
+> This repository's pins stay as they are, so machines not yet switched keep
+> working, but it receives no new releases.
+
 The single marketplace for PixelOven's Claude Code and Codex plugins.
 
 ## Install
