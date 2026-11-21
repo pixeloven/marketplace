@@ -1,29 +1,24 @@
 # PixelOven marketplace
 
-The single marketplace for PixelOven's Claude Code and Codex plugins.
+> [!IMPORTANT]
+> **The catalogue has moved to [pixeloven/crew](https://github.com/pixeloven/crew).**
+> From crew v0.67.0, crew's repository serves the `pixeloven` marketplace for
+> crew and every skills pack, and one release tag pins them all. Plugin IDs
+> (`crew@pixeloven`, `<pack>@pixeloven`) are unchanged.
+>
+> To switch each tool (Claude Code, Codex, pi), follow the
+> [Consumer impact steps in crew's 0.67.0 changelog](https://github.com/pixeloven/crew/blob/v0.67.0/CHANGELOG.md#consumer-impact).
+> This repository's pins stay as they are, so machines not yet switched keep
+> working, but it receives no new releases.
+
+The single marketplace for PixelOven's Claude Code and Codex plugins, until the
+move to crew (historical; see the notice above).
 
 ## Install
 
-```sh
-# Claude Code
-claude plugin marketplace add pixeloven/marketplace
-claude plugin install crew@pixeloven
-
-# Codex
-codex plugin marketplace add pixeloven/marketplace
-codex plugin add crew@pixeloven
-```
-
-Or declare it in settings:
-
-```json
-{
-  "extraKnownMarketplaces": {
-    "pixeloven": { "source": { "source": "github", "repo": "pixeloven/marketplace" }, "autoUpdate": true }
-  },
-  "enabledPlugins": { "crew@pixeloven": true }
-}
-```
+New installs use pixeloven/crew at v0.67.0 or later: follow
+[crew's Install section](https://github.com/pixeloven/crew/blob/v0.67.0/README.md#install).
+Do not add `pixeloven/marketplace` on a new machine.
 
 ## Plugins
 
@@ -46,6 +41,8 @@ then it is installed from its own repository directly.
 
 ## Why one marketplace
 
+Historical: this was the rationale before the catalogue moved to crew.
+
 Marketplaces are keyed by name. A repository that publishes its own marketplace
 named after itself can only ever serve that one plugin, and two repositories
 cannot both claim the name `pixeloven`. So the catalogue lives here, once, and
@@ -54,14 +51,9 @@ each plugin repository stays a plugin repository.
 ## Releasing
 
 Plugin entries pin a **commit SHA**, not a tag — that is the only pin a `url`
-source takes. So a plugin release is two steps:
-
-1. merge and tag the release in the plugin's own repository;
-2. update that plugin's `sha` here.
-
-Until step 2 lands, consumers keep resolving the previously pinned commit. That
-is the intended behaviour: nothing ships to consumers until the catalogue says
-so.
+source takes. Those pins are now frozen: releases ship from
+[pixeloven/crew](https://github.com/pixeloven/crew) (see the notice above), and
+consumers of this repository keep resolving the last pinned commit.
 
 ## License
 
