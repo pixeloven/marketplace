@@ -65,14 +65,9 @@ each plugin repository stays a plugin repository.
 ## Releasing
 
 Plugin entries pin a **commit SHA**, not a tag — that is the only pin a `url`
-source takes. So a plugin release is two steps:
-
-1. merge and tag the release in the plugin's own repository;
-2. update that plugin's `sha` here.
-
-Until step 2 lands, consumers keep resolving the previously pinned commit. That
-is the intended behaviour: nothing ships to consumers until the catalogue says
-so.
+source takes. Those pins are now frozen: releases ship from
+[pixeloven/crew](https://github.com/pixeloven/crew) (see the notice above), and
+consumers of this repository keep resolving the last pinned commit.
 
 ## License
 
