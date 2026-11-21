@@ -11,30 +11,14 @@
 > This repository's pins stay as they are, so machines not yet switched keep
 > working, but it receives no new releases.
 
-The single marketplace for PixelOven's Claude Code and Codex plugins.
+The single marketplace for PixelOven's Claude Code and Codex plugins, until the
+move to crew (historical; see the notice above).
 
 ## Install
 
-```sh
-# Claude Code
-claude plugin marketplace add pixeloven/marketplace
-claude plugin install crew@pixeloven
-
-# Codex
-codex plugin marketplace add pixeloven/marketplace
-codex plugin add crew@pixeloven
-```
-
-Or declare it in settings:
-
-```json
-{
-  "extraKnownMarketplaces": {
-    "pixeloven": { "source": { "source": "github", "repo": "pixeloven/marketplace" }, "autoUpdate": true }
-  },
-  "enabledPlugins": { "crew@pixeloven": true }
-}
-```
+New installs use pixeloven/crew at v0.67.0 or later: follow
+[crew's Install section](https://github.com/pixeloven/crew/blob/v0.67.0/README.md#install).
+Do not add `pixeloven/marketplace` on a new machine.
 
 ## Plugins
 
@@ -56,6 +40,8 @@ private repository is added here when that repository goes public — until
 then it is installed from its own repository directly.
 
 ## Why one marketplace
+
+Historical: this was the rationale before the catalogue moved to crew.
 
 Marketplaces are keyed by name. A repository that publishes its own marketplace
 named after itself can only ever serve that one plugin, and two repositories
